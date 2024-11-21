@@ -1,0 +1,393 @@
+/* ||||||||||||||||||||||||||||||| ALGEMENE STYLING |||||||||||||||||||||||||| */
+
+body,
+html {
+    font-family: "andale mono", monospace;
+    background-color: rgb(63, 63, 63);
+    font-size: 25px;
+    height: 100%;
+        width: 100%;
+}
+
+button[type="submit"] {
+    font-family: "andale mono", monospace;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigatiebalk {
+    background-color: rgb(31, 31, 31);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navigatiebalk_start,
+.navigatiebalk_midden,
+.navigatiebalk_eind {
+    display: flex;
+    align-items: center;
+}
+
+.navigatiebalk_start {
+    width: 15%;
+    justify-content: flex-start;
+}
+
+.navigatiebalk_midden {
+    width: 60%;
+        display: flex;
+        justify-content: center;
+}
+
+.navigatiebalk_eind {
+    width: 25%;
+        justify-content: space-around;
+    padding-right: 2%;
+}
+
+.navigatiebalk a:hover {
+    text-decoration: underline white;
+}
+
+.center {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fout {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fout a {
+    text-decoration: underline;
+    color: red;
+}
+
+.logout_link {
+    padding: 20px;
+}
+/* |||||||||||||||||||||||||| HOME STYLING ||||||||||||||||||||||| */
+
+.keuze_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2%;
+    flex-direction: column;
+}
+
+.start_opties {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px white solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.start_opties a:hover {
+    text-decoration: underline white;
+}
+
+.roulette_link h3,
+.blackjack_link h3 {
+    width: 200px;
+}
+/* |||||||||||||||||||||| ROULETTE STYLING |||||||||||||||||||| */
+
+.inzet_menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    flex-direction: row;
+    border: white solid 2px;
+    border-radius: 20px;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.munten {
+    padding: 10px;
+    border: none;
+    height: 100px;
+    width: auto;
+}
+
+.munten .munten:hover {
+    border: white solid 2px;
+    border-radius: 100px;
+    padding: none;
+}
+
+.munten button {
+    border-radius: 100px;
+    background-color: rgb(63, 63, 63);
+}
+
+.roulette_spel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.roulette {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+        border: white solid 2px;
+        border-radius: 10px;
+        flex-direction: column;
+
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    padding: 20px;
+    border: white solid 2px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgb(63, 63, 63);
+}
+td {
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    
+}
+
+td button {
+    border: 0;
+    border: white solid 1px;
+}
+
+.leeg {
+    border: none;
+}
+
+.rood {
+    background-color: rgb(247, 55, 55);
+    color: white;
+}
+
+.zwart {
+    background-color: black;
+    color: white;
+}
+
+.margin {
+    margin-top: 4px;
+}
+.abc {
+    margin-bottom: 10px;
+}
+
+.groen {
+    background-color: rgb(14, 134, 3);
+    color: white;
+}
+
+.NVTP {
+    background-color: white;
+    color: black;
+    margin: 10px;
+}
+
+button {
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.geld_toevoegen_container {
+    display: flex;
+    gap: 10px;
+    margin-top: 2%;
+    justify-content: center;
+    flex-direction: column;
+        border-radius: 20px;
+            height: 50%;
+            width: 100%;
+}
+
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: "andale mono", monospace;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    font-family: "andale mono", monospace;
+    cursor: pointer;
+}
+
+.inzet_munten,
+.inzet_aangepast {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    height: 200px;
+}
+
+.inzet_aangepast {
+    gap: 10px;
+}
+
+.inzet_aangespast button {
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.of {
+    padding: 20px;
+}
+
+.markering {
+    background-color: yellow;
+}
+
+/*||||||||||||||| BLACK JACK STYLING ||||||||||||||||||*/
+
+.blackjack_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blackjack_win {
+    background-color: rgb(111, 255, 98);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: white solid 2px;
+}
+
+.blackjack_verlies {
+    background-color: rgb(252, 34, 34);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: white solid 2px;
+}
+
+.begin_knop_blackjack {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.speelveld_blackjack {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.blackjack_container img {
+    height: 10%;
+    width: auto;
+}
+
+.speler_kaarten,
+.dealer_kaarten {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dealer_kaarten img,
+.speler_kaarten img {
+    height: 200px;
+    width: auto;
+}
+
+.dealer_kaarten {
+    margin-bottom: 30px;
+    gap: 25px;
+}
+
+.speler_kaarten {
+    gap: 25px;
+}
+
+.knoppen_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.knoppen_menu button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: "andale mono", monospace;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.nieuwe_inzet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px
+}
+
+#opnieuw_spelen {
+    padding: 20px;
+    justify-content: center;
+}
